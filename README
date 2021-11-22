@@ -1,0 +1,9 @@
+By using AND, OR, XOR, Left Shift and Right Shift operations, I made a simple Hash Generator, which can convert any file into a string in length 8.
+I run this code on CIMS Linserv1 server. This code is written in C. Use gcc to compile.
+
+Sample usage:
+Put Makefile and my_hash.c in a same folder.
+$ make
+$ echo sample message > sample_file.txt
+$ ./my_hash  sample_file.txt
+46e5f87b  // hash of sample_file.txt
