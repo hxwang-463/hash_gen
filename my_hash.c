@@ -9,9 +9,6 @@
 #define handle_error(msg) do { perror(msg); exit(EXIT_FAILURE); } while (0)
 
 int main(int argc, char **argv){
-
-
-
     int fd;
     struct stat sb;
     off_t offset, pa_offset;
